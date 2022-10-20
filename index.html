@@ -9,34 +9,39 @@
 </head>
 <body>
     <div class = "fundo">
-        <h1>Romulo Hiago</h1>
-          <div class = "calculadora">
+        <h1>Romulo Hiago RGM:29359449</h1><br>
+        <h1>Laura Sousa RGM:29975859</h1><br>
+        <h1>Kauã Maurício RGM:29444195</h1><br>
+        <h1>Rafael Dias RGM:29293073</h1><br>
+        <h1>Wagner de Sousa RGM:29251133</h1><br>
+        <h1>João Victor RGM:29713862</h1><br>
+          <div id= "Cel"class = "calculadora">
             <h1>Calculadora</h1>
             <p id="resultado"></p>
             <table>
                 <tr>
-                    <td><button class="botao" onclick="clean()">C</button></td>
-                    <td><button class="botao" onclick="back()"><</button></td>
-                    <td><button class="botao" onclick="insert('/')">/</button></td>
-                    <td><button class="botao" onclick="insert('*')">X</button></td>
+                    <td><button id ="close" class="botao" onclick="clean()">C</button></td>
+                    <td><button id ="close"  class="botao" onclick="back()"><</button></td>
+                    <td><button id= "cor" class="botao" onclick="insert('/')">/</button></td>
+                    <td><button id= "cor" class="botao" onclick="insert('*')">X</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('7')">7</button></td>
                     <td><button class="botao" onclick="insert('8')">8</button></td>
                     <td><button class="botao" onclick="insert('9')">9</button></td>
-                    <td><button class="botao" onclick="insert('-')">-</button></td>
+                    <td><button id= "cor" class="botao" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('4')">4</button></td>
                     <td><button class="botao" onclick="insert('5')">5</button></td>
                     <td><button class="botao" onclick="insert('6')">6</button></td>
-                    <td><button class="botao" onclick="insert('+')">+</button></td>
+                    <td><button id= "cor" class="botao" onclick="insert('+')">+</button></td>
                 </tr>
                 <tr>
                     <td><button class="botao" onclick="insert('1')">1</button></td>
                     <td><button class="botao" onclick="insert('2')">2</button></td>
                     <td><button class="botao" onclick="insert('3')">3</button></td>
-                    <td rowspan="2"><button class="botao" style="height: 106px;" onclick="calcular()">=</button></td>
+                    <td rowspan="2"><button id ="igual"class="botao" style="height: 106px;" onclick="calcular()">=</button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button class="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
